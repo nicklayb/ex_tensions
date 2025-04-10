@@ -1,0 +1,6 @@
+*
+!.gitignore
+!.iex.exs
+!atoms.exs
+!io.exs
+!process.exs
