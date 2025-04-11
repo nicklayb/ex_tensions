@@ -1,6 +1,6 @@
 *
 !.gitignore
-!.iex.exs
+!iex.exs
 !extensions/
 !extensions/*
 
