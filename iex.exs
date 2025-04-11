@@ -23,8 +23,6 @@ defmodule Nb do
   end
 
   def load_project_extensions(file) do
-    full_path = Path.join(Nb.File.dev_root(), file)
-
     if Nb.File.in_project?() do
       load_file(Nb.File.extensions(), file)
     else
