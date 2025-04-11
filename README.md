@@ -10,7 +10,7 @@ The flake needs to make use of Home Manager and have the following
 
 ```nix
 home.file.".iex.exs".source = "${inputs.elixir-extensions}/iex.exs";
-home.file.".elixir".source = "${inputs.elixir-extensions}/elixir";
+home.file.".elixir".source = "${inputs.elixir-extensions}/extensions";
 ```
 
 By having `.iex.exs` in my home, this file is read everytime I start a Iex shell so my custom modules will be evaluated.
